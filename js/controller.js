@@ -41,7 +41,7 @@ function display(gifshow){
     var outputDiv = document.getElementById('show');
     gifshow.forEach(gify=>{
         if(gify['featured_gif']!=null){
-        outputDiv.innerHTML+= "<div class='figure m-4 p-3 rounded border border-info'><img alt='GIF' src="+gify['featured_gif']['images']['downsized_medium']['url']+"><figcaption class='bg-warning rounded m-1'>"+gify['display_name']+"</figcaption></div>";
+        outputDiv.innerHTML+= "<div class='figure m-4 p-3 rounded border border-info'><img alt='GIF' class='search' src="+gify['featured_gif']['images']['downsized_medium']['url']+"><figcaption class='bg-warning rounded m-1'>"+gify['display_name']+"</figcaption></div>";
         }
         
     })

@@ -2,7 +2,7 @@
     display: none;
     
 }
-#show img{
+#show .search{
     width: 200px;
     height: 200px;
     background: url('../img/placeholder-image.png') no-repeat;
